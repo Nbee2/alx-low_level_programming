@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-	putchar(ch);
+int i;
+for (i = 0 ; i < 10 ; i++)
+{ 
+	printf("%i", i);
 }
-purchar('\n)
-return(0)
+purchar('\n);
+return(0);
 }
