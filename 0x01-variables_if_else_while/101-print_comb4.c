@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-int n, p, m;
+	int n, p, m;
 
-for (n = 0; n <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
-	for (p = 1; p <= 9; p++)
+		for (p = 1; p <= 9; p++)
 		{
-		for (m = 2; m <= 9; m++)
+			for (m = 2; m <= 9; m++)
 			{
-			if (m > p && p > n)
+				if (m > p && p > n)
 				{
 					putchar(n + '0');
 					putchar(p + '0');
@@ -29,6 +29,6 @@ for (n = 0; n <= 9; n++)
 		}
 	}
 }
-putchar('\n');
-return (0);
+	putchar("\n");
+	return (0);
 }
