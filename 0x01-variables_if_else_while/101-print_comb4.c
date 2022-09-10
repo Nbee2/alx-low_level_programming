@@ -14,17 +14,17 @@ int main(void)
 		{
 			for (m = 2; m <= 9; m++)
 			{
-				if (m > p && p > n)
-				{
-					putchar(n + '0');
-					putchar(p + '0');
-					putchar(m + '0');
-						if (n != 7)
+			if (m > p && p > n)
+			{
+				putchar(n + '0');
+				putchar(p + '0');
+				putchar(m + '0');
+					if (n != 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
-				}
+			}
 			}
 		}
 	}
