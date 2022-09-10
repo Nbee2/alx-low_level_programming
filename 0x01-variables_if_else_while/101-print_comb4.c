@@ -17,8 +17,8 @@ for (n = 0; n <= 9; n++)
 			if (m > p && p > n)
 				{
 					putchar(n + '0');
-					purchar(p + '0');
-					purchar(m + '0');
+					putchar(p + '0');
+					putchar(m + '0');
 						if (n != 7)
 						{
 						putchar(',');
