@@ -14,7 +14,7 @@ for (n = 0; n <= 9; n++)
 	{
 		if (m > n)
 		{
-			putchar(n +'0');
+			putchar(n + '0');
 			putchar(m + '0');
 			if (n != 8)
 			{
