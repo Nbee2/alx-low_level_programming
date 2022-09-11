@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - print the string of the function
+* main - print the string of the function.
 *
-* Description: using the main function
-* this program prints the size of various types on the computer it is compiled and run on
+* Description: using the main function.
+* This program prints the size of various
+* types on the computer it is compiled and run on.
 * Return: 0
 */
 int main(void)
