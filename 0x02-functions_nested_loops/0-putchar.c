@@ -4,9 +4,9 @@
 * main - a program that prints _putchar,
 * followed by a new line.
 *
-*Get the character to be written.
+* Get the character to be written.
 * Write the Character to stdout.
-* Return: always
+* Return: always 0
 */
 int main(void)
 {
