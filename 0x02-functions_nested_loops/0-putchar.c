@@ -7,7 +7,7 @@
 * Write the Character to stdout.
 * Return: always
 */
-int main(voi  
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -17,6 +17,7 @@ int main(voi
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	
+	_putchar('\n');
+		
 	return (0);
 }
