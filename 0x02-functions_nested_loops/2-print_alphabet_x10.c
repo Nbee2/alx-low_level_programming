@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet_x10 - function to print 
+* print_alphabet_x10 - function to print
 * abc 10 times
-* 
+*
 * Description: using a function
 * this program prints an alphabet 10 times
 *
