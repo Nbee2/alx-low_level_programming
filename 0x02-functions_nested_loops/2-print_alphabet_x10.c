@@ -18,5 +18,5 @@ void print_alphabrt_x10(void)
 			_putchar(c);
 		}
 		_putchar('\n');
-		return (0);
+	}
 }
