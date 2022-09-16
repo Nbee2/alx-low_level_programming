@@ -6,23 +6,18 @@
 * @n: The number to print
 */
 
-void print_number(int num)
+void print_number(int n)
 {
-	unsigned int num1;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
-		num = -num;
 		_putchar('-');
+		num = -num;
 	}
-	else
+	if (num > 9)
 	{
-		num1 = num;
+		print_number(num / 10);
 	}
-
-	if (num1 / 10)
-	{
-		print_number(num1 / 10);
-	}
-	_putchar((num1 % 10) + '0');
+	_putchar(num % 10 + '0');
 }
