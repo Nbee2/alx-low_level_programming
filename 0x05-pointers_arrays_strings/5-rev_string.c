@@ -3,22 +3,16 @@
 #include "main.h"
 /**
 * print_rev - Write a function that reverses a string.
-* @s: The string tp print
+* @s: The string to printed in reverse
 * Return: Void
 */
-void rev_string(char *s)
+
+void rev_string(char *s);
 {
-	int k = 0;
+	int len = strlen(s);
 
-	while (s[k] != '\0')
-	{
-		k++;
-	}
+	while (len--)
+		putchar(*(s + len));
+	putchar(10);
 
-	for (k -= 1; k >= 0; k--)
-	{
-		_putchar(s[k]);
-	}
-
-	_putchar('\n');
 }
