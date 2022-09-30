@@ -8,9 +8,9 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	return (_sqrt(0, n));
+	if (n < 0)
+		return (-1);
+	return (real_root(n, 0));
 }
 
 /**
@@ -20,11 +20,11 @@ int _sqrt_recursion(int n)
  *
  * Return: the square root of n
  */
-int _sqrt(int n, int x)
+int real_root(int n, int x)
 {
-	if (n > x / 2)
+	if (x * x > n)
 		return (-1);
-	else if (n * n == x)
-		return (n);
-	return (_sqrt(n + 1, x));
+	else if (x * x == n)
+		return (x);
+	return (real_root(n, x + 1));
 }
