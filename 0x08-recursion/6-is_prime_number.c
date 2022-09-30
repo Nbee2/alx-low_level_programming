@@ -4,7 +4,7 @@
 *
 * @n: number
 *
-* return: 1
+* return: return (1)
 */
 int is_prime_number(int n)
 {
