@@ -1,9 +1,10 @@
 #include "main.h"
 /**
 * is_prime_number - finds out if n is a prime number
+*
 * @n: number
 *
-* return: result
+* return: (is_prime_number(n % (tmp + 1)))
 */
 int is_prime_number(int n)
 {
