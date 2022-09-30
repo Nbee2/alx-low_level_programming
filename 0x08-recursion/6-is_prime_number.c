@@ -3,11 +3,11 @@
 int actual_prime(int n, int i
 
 /**
- * is_prime_number - indicates a prime number
- * @n: number to be checked
- *
- * Return: 1 if n is prime, 0 otherwise
- */
+* is_prime_number - indicates a prime number
+* @n: number to be checked
+*
+* Return: 1 if n is prime, 0 otherwise
+*/
 int is_prime_number(int n)
 {
 	if (n <= 1)
