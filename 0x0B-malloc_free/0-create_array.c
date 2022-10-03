@@ -29,7 +29,10 @@ char *create_array(unsigned int size, char c)
 	while (position < size) /*while for arrays*/
 	{
 	*(buffer + position) = c;
+ 	position++;
 	}
 
 	return (buffer);
+
+	}
 }
