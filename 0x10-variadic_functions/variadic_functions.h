@@ -11,7 +11,8 @@ typedef structprint
 {
 	char *t;
 	void (*f)(va_list);
-} print_t;
+}
+	print_t;
 
 int _putchar(char *);
 int sum_them_all(const unsigned int n, ...);
